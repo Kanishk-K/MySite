@@ -42,4 +42,27 @@
     width: 100px;
     height: 100px;
   }
+  .card-body{
+    padding-bottom: 0px;
+  }
+  .card-footer{
+    padding-top: 0px;
+  }
+  .dev-icons {
+    padding-left: 0;
+    list-style: none;
+    font-size: 2rem;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    text-align: center;
+  }
   
+  .software-skill-inline-dark {
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+  .software-skill-inline-dark > p {
+    font-size: 10px;
+  }
+  /*#171c28P*/
