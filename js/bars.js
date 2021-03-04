@@ -1,7 +1,7 @@
 var done = false;
 $(window).scroll(function() {
-  var hT = $('.bar-container').offset().top,
-      hH = $('.bar-container').outerHeight(),
+  var hT = $('#projects').offset().top,
+      hH = $('#projects').outerHeight(),
       wH = $(window).height(),
       wS = $(this).scrollTop();
   if (wS > (hT+hH-wH) && !done){
