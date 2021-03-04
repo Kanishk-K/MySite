@@ -28,7 +28,7 @@ $.ajax({
                             </svg>
                             <p class="repo-name">${repository.name}</p>
                         </div>
-                        <p class="repo-description">${repository.description}</p>
+                        <p class="repo-description text-left">${repository.description}</p>
                         <div class="repo-stats">
                             <div class="repo-left-stat">
                                 <span>
