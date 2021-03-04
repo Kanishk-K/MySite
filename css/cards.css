@@ -206,3 +206,78 @@
     opacity: 1;
     transition: all 0.3s ease;
 }
+
+/* Mobile */
+.social-media-div {
+  font-size: 2em;
+  text-align: center;
+  width: 100%;
+}
+
+.social-media-div a {
+  margin-left: 1vw;
+  margin-right: 1vw;
+  width: fit-content;
+}
+
+.icon-button {
+  margin-bottom: 10px;
+}
+
+.icon-button i {
+  border-radius: 2.6rem;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1.3rem;
+  height: 2.6rem;
+  line-height: 2.6rem;
+  margin: 0 1px;
+  position: relative;
+  text-align: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 2.6rem;
+  margin-bottom: 10px;
+  transition: 0.2s ease-in;
+  color: white;
+  border: 2px solid #D8AB4C;
+}
+
+.email-mobile i {
+  background-color: #B23121;
+}
+
+.linkedin-mobile i {
+  background-color: #0e76a8;
+}
+
+.github-mobile i {
+  background-color: #333;
+}
+
+.instagram-mobile i {
+  background-color: #c13584;
+}
+.discord-mobile i{
+  background-color: #7289da;
+}
+/* Hover Transition */
+.email-mobile i:hover,
+.discord-mobile i:hover,
+.github-mobile i:hover,
+.linkedin-mobile i:hover,
+.instagram-mobile i:hover
+{
+  background-color:  #222222;
+  color: #D8AB4C;
+  transform: translateY(-2px);
+}
+
+/* Media Query */
+@media (max-width: 992px) {
+  .social-media-div {
+    text-align: center;
+  }
+}
