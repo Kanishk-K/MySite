@@ -17,6 +17,9 @@ $.ajax({
             if (repository.description == null){
                 repository.description = `This repository is titled ${repository.name} and was primarily made with ${repository.language}.`;
             }
+            if (repository.language == null){
+                repository.language = "";
+            }
             repository.size = formatBytes(repository.size*1024)
             $(".repo-cards-div-main").append(
                 `
