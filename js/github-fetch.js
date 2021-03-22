@@ -35,7 +35,7 @@ $.ajax({
                         <div class="repo-stats">
                             <div class="repo-left-stat">
                                 <span>
-                                    <div class="language-color ${repository.language}"></div>
+                                    <div class="language-color ${repository.language.split(" ").join("-")}"></div>
                                     <p class="m-0 align-middle">${repository.language}</p>
                                 </span>
                                 <span>
