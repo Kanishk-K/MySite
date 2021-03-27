@@ -50,7 +50,7 @@
                         <a class="nav-link page-scroll" data-toggle="collapse" data-target=".navbar-collapse.show" href="#about">About</a>
                     </li>
                     <li class="nav-item text-center px-2">
-                        <a class="nav-link page-scroll" data-toggle="collapse" data-target=".navbar-collapse.show" href="#projects">Projects</a>
+                        <a class="nav-link page-scroll" data-toggle="collapse" data-target=".navbar-collapse.show" href="#projects">Projects/Experience</a>
                     </li>
                     <li class="nav-item text-center px-2">
                         <a class="nav-link page-scroll" data-toggle="collapse" data-target=".navbar-collapse.show" href="#skills">Skills</a>
@@ -103,18 +103,51 @@
                 <div class="container py-5">
                     <div class="row d-flex justify-content-center">
                         <div class="col-12 pt-4">
-                            <h4 class="section-title">My Projects</h4>
+                            <h4 class="section-title">My Projects/Experience</h4>
                         </div>
                         <div class="col-12 col-md-6 col-lg-4 py-3" data-aos="fade-right">
-                            <div class="card card-custom bg-primary border-primary border-0 text-white" >
+                            <div class="card card-custom bg-warning border-warning border-0 " >
+                                <div class="card-custom-img" style="background-image: url(images/NEOWISE.jpg);"></div>
+                                <div class="card-custom-avatar">
+                                  <img class="img-fluid" src="images/CalTech.webp" alt="Avatar" />
+                                </div>
+                                <div class="card-body" style="overflow-y: auto">
+                                    <h4 class="card-title">IPAC Research</h4>
+                                    <h6>Spring 2021 - Present</h6>
+                                    <p class="card-text">
+                                        Worked with IPAC researchers Dr. Davy Kirkpatrick and Federico Marocco to categorize,
+                                        store, clean, and analyze data regarding brown dwarfs and other stars. As the only
+                                        developer I created a database, frontend, backend, and also deployed the service on the cloud
+                                        using AWS EC2.
+                                    </p>
+                                    <div class="software-skills-main-div">
+                                        <ul class="dev-icons">
+                                            <li class="software-skill-inline-dark" name="html-5"><i class="fas fa-laptop"></i><p>Frontend</p></li>
+                                            <li class="software-skill-inline-dark" name="html-5"><i class="fas fa-server"></i><p>Backend</p></li>
+                                            <li class="software-skill-inline-dark" name="server"><i class="fas fa-database"></i><p>MySQL</p></li>
+                                            <li class="software-skill-inline-dark" name="aws"><i class="fab fa-aws"></i></i><p>AWS EC2</p></li>
+                                            <li class="software-skill-inline-dark" name="aws"><i class="fas fa-terminal"></i></i><p>Linux Systems</p></li>
+                                            <li class="software-skill-inline-dark" name="security"><i class="fas fa-user-shield"></i></i><p>Data Security</p></li>
+                                            <li class="software-skill-inline-dark" name="security"><i class="fas fa-chart-bar"></i><p>Data Analysis</p></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="card-footer" style="background: inherit; border-color: inherit;">
+                                  <a href="https://novacrypt.org/" target="_blank" class="btn btn-outline-dark disabled">Data Not Public Yet</a>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4 py-3" data-aos="fade-right" >
+                            <div class="card card-custom bg-primary border-primary border-0 text-white">
                                 <div class="card-custom-img" style="background-image: url(images/Novacrypt.jfif);"></div>
                                 <div class="card-custom-avatar">
                                   <img class="img-fluid" src="images/NovaCrypt.png" alt="Avatar" />
                                 </div>
                                 <div class="card-body" style="overflow-y: auto">
                                     <h4 class="card-title">NovaCrypt</h4>
+                                    <h6>Fall 2020 - Spring 2021</h6>
                                     <p class="card-text">
-                                        Managed a team of 15+ Developers in creating a functional website using Django, PostgreSQL, 
+                                        Managed a team of 15+ Developers in creating a functional web service using Django, PostgreSQL, 
                                         Bootstrap, Javascript, and JQuery. Additionally, we utilized technologies such as AWS 
                                         and CloudFront for production.
                                     </p>
@@ -126,9 +159,9 @@
                                             <li class="software-skill-inline-dark" name="AJAX"><i class="fas fa-network-wired"></i></i><p>AJAX</p></li>
                                             <li class="software-skill-inline-dark" name="bootstrap"><i class="fab fa-bootstrap"></i><p>Bootstrap</p></li>
                                             <li class="software-skill-inline-dark" name="python"><i class="fab fa-python"></i><p>Django</p></li>
-                                            <li class="software-skill-inline-dark" name="server"><i class="fas fa-server"></i><p>PostgreSQL</p></li>
+                                            <li class="software-skill-inline-dark" name="server"><i class="fas fa-database"></i><p>PostgreSQL</p></li>
                                             <li class="software-skill-inline-dark" name="aws"><i class="fab fa-aws"></i></i><p>AWS</p></li>
-                                            <li class="software-skill-inline-dark" name="security"><i class="fas fa-user-shield"></i></i><p>Data Security and Authentication</p></li>
+                                            <li class="software-skill-inline-dark" name="security"><i class="fas fa-user-shield"></i></i><p>Data Security</p></li>
                                             <li class="software-skill-inline-dark" name="Git"><i class="fab fa-git"></i><p>Git</p></li>
                                         </ul>
                                     </div>
@@ -146,6 +179,7 @@
                                 </div>
                                 <div class="card-body" style="overflow-y: auto">
                                     <h4 class="card-title">Divarta</h4>
+                                    <h6>Summer 2020 - Fall 2020</h6>
                                     <p class="card-text">
                                         Created an Alexa Application to distribute articles to readers, used Amazon Web Services RDS 
                                         to store client information, and used SMTP to distribute newsletters to viewers. 
@@ -154,8 +188,7 @@
                                     <div class="software-skills-main-div">
                                         <ul class="dev-icons">
                                             <li class="software-skill-inline-dark" name="wordpress"><i class="fab fa-wordpress-simple"></i><p>WordPress</p></li>
-                                            <li class="software-skill-inline-dark" name="API"><i class="fas fa-project-diagram"></i><p>WordPress</p></li>
-                                            <li class="software-skill-inline-dark" name="css3"><i class="fab fa-css3-alt"></i><p>CSS</p></li>
+                                            <li class="software-skill-inline-dark" name="API"><i class="fas fa-project-diagram"></i><p>APIs</p></li>
                                             <li class="software-skill-inline-dark" name="server"><i class="fas fa-server"></i><p>MySQL</p></li>
                                             <li class="software-skill-inline-dark" name="aws"><i class="fab fa-aws"></i></i><p>AWS RDS</p></li>
                                             <li class="software-skill-inline-dark" name="alexa"><i class="fas fa-podcast"></i><p>Alexa</p></li>
@@ -177,8 +210,9 @@
                                 </div>
                                 <div class="card-body" style="overflow-y: auto">
                                     <h4 class="card-title">Manim Videos</h4>
+                                    <h6>2018 - Present</h6>
                                     <p class="card-text">
-                                        Utilized concepts of numpy, linear algebra, and other mathematics to create educational
+                                        Utilized concepts of NumPY, linear algebra, and related mathematics to create educational
                                         videos regarding the concepts of Computer Science, Chemistry, and general mathematics.
                                         Many of these videos can be found on my youtube channel.
                                     </p>
@@ -351,7 +385,7 @@
                                                     <h5 class="card-header">
                                                         <a class="collapsed d-block" data-toggle="collapse" href="#collapse-Eastview2019" aria-expanded="true" aria-controls="collapse-collapsed" id="heading-collapsed">
                                                             <i class="fa fa-chevron-down pull-right"></i>
-                                                            Sophmore Year Courses 2018 - 2019
+                                                            Sophomore Year Courses 2018 - 2019
                                                         </a>
                                                     </h5>
                                                     <div id="collapse-Eastview2019" class="collapse" aria-labelledby="heading-collapsed">
