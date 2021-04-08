@@ -1,0 +1,21 @@
+.carousel-item i{
+    font-size: 12vmax;
+}
+#intro p {
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 400;
+    font-size: 1.5vmax;
+}
+#intro #app {
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 400;
+    font-size: 5vmax;
+}
+@media (max-width: 576px) {
+    #intro p {
+        font-size: 2vmax;
+    }
+}
+#intro .active{
+    background-color: transparent !important;
+}

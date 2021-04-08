@@ -23,7 +23,7 @@ $.ajax({
             repository.size = formatBytes(repository.size*1024)
             $(".repo-cards-div-main").append(
                 `
-                <div class="repo-card-div hvr-bounce-in aos-init aos-animate" data-aos="fade-up">
+                <div class="repo-card-div hvr-bounce-in aos-init aos-animate" data-aos="zoom-in-up">
                     <a href="${repository.html_url}" target="_blank" style="text-decoration: none;">
                         <div class="repo-name-div">
                             <svg aria-hidden="true" class="repo-svg" height="20" role="img" viewBox="0 0 12 16" width="14">
